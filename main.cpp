@@ -11,7 +11,7 @@ int main() {
     }else if(n>=2) {
         cout << "1" << endl;
 
-        for (int i = 1; i > 0; i++) {
+        for (int i = 2; i > 0; i++) {
             c = a + b;
             if (c <= n) {
                 cout << c << endl;
